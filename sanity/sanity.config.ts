@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'blog with nextjs',
 
-  projectId: '6a8s4kfk',
+  projectId: 'process.env.SANITY_PROJECT_ID',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
